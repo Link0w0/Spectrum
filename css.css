@@ -169,6 +169,17 @@ h1, h2, h3, h4, h5, h6 {
 .animated_rainbow_1 {
      font-size: large;
      }
+       
+       .jumbotron !important{
+        background-size: cover;
+         }
+       
+        .card:hover {
+   -webkit-transition: .30s ease-in-out;
+  transition: .30s ease-in-out;
+  transform: scale(0);
+  }
+        
       @media (max-width: 425px) {
      
 .animated_rainbow_1 {
