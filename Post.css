@@ -57,7 +57,16 @@
 .jumbotron {
    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://images.unsplash.com/photo-1601947102467-ccf0a55adba3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"); 
   background-position: center;
+  background-size: 100%;
+  -webkit-transition: .80s ease-in-out;
+  transition: .80s ease-in-out;
   }
+
+.jumbotron:hover {
+ -webkit-transition: .80s ease-in-out;
+  transition: .80s ease-in-out;
+           background-size: 150%;
+        }
 
 .blog-header-logo {
   font-family: "Playfair Display", Georgia, "Times New Roman", serif;
@@ -171,6 +180,10 @@ h1, h2, h3, h4, h5, h6 {
 .animated_rainbow_1 {
      font-size: large;
      }
+         .jumbotron !important {
+        background-size: cover;
+         }
+       
       @media (max-width: 425px) {
      
 .animated_rainbow_1 {
