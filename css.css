@@ -185,11 +185,11 @@ h1, h2, h3, h4, h5, h6 {
      font-size: large;
      }
        
-       .jumbotron !important{
+       .jumbotron !important {
         background-size: cover;
          }
        
-        .card:hover !important{
+        .card:hover !important {
    -webkit-transition: .30s ease-in-out;
   transition: .30s ease-in-out;
   transform: scale(0);
