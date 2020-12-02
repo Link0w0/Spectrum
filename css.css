@@ -185,15 +185,16 @@ h1, h2, h3, h4, h5, h6 {
      font-size: large;
      }
        
-       .jumbotron !important {
-        background-size: cover;
-         }
-       
-        .card:hover !important {
-  transform: scale(0);
-  }
         
       @media (max-width: 425px) {
+           
+        .card:hover{
+  transform: scale(0);
+  }
+       
+       .jumbotron{
+        background-size: cover;
+         }
      
 .animated_rainbow_1 {
      font-size: medium;
